@@ -223,3 +223,7 @@ form .form-content label:hover{
     margin-top: auto;
     background: #72dae8;
 }
+
+.description ul li{
+  color: white;
+}
