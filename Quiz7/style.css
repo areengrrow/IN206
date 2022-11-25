@@ -1,0 +1,16 @@
+div{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  transition: width 4s, height 4s;
+}
+
+#box-1:hover{
+    height:100px;
+    width:600px;
+}
+
+#box-2:hover{
+  height:250px;
+  width:250px
+}
