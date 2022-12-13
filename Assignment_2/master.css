@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.nav-bar {
+  display: block;
+  background-color: black;
+  min-width: 20vw;
+  height: 100vh;
+
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar .nav-ele {
+  margin: 20px 30px;
+}
+.nav-bar .separator{
+  height: 2px;
+  min-width: 20vw;
+  background-color: white;
+}
+.nav-bar .nav-ele a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-btn {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+}
