@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="flex-container">
+    <input type="number" id="limitingInputField" oninput="limitLength()" />
+    <p>&nbsp;input mask number 12 digits</p>
+  </div>
+  <div class="flex-container">
+    <span class="currencyinput"><input type="number" />$</span>
+    <p>&nbsp;input mask curency is prefix $ (dollar)</p>
+  </div>
+  <script>
+    function limitLength() {
+      var x = document.getElementById("limitingInputField").value;
+      if (x.length > 12) {
+        document.getElementById("limitingInputField").value = x.slice(0, 12);
+      }
+    }
+  </script>
+</body>
+
+</html>
